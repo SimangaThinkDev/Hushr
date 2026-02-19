@@ -1,0 +1,11 @@
+[package]
+name = "hushr"
+version = "0.1.0"
+edition = "2024"
+description = "Real-time adaptive noise suppression engine"
+
+[dependencies]
+clap = { version = "4.5.59", features = ["derive"] }
+cpal = "0.17.3"
+ringbuf = "0.4.8"
+rustfft = "6.4.1"
