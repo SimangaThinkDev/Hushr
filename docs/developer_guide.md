@@ -44,7 +44,7 @@ We recommend using `rustup` to manage your Rust installation.
 ---
 
 ## 3. Project Structure
-
+ 
 - `src/main.rs`: The entry point. Handles CLI arguments and the live audio loop.
 - `src/dsp.rs`: The core DSP logic. Contains the `AudioProcessor` trait and implementations like `GainProcessor`.
 - `Cargo.toml`: Project configuration and Rust dependencies (`cpal`, `ringbuf`, `rustfft`).
